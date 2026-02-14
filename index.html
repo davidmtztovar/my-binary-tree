@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binary Tree Growth Animation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="canvas-wrapper">
+        <canvas id="treeCanvas" role="img" aria-label="Procedurally generated binary tree growing from the root toward the leaves"></canvas>
+        <div id="greeting" aria-hidden="true">Happy Valentine's Day Lara</div>
+      </section>
+
+      <header class="hero glass-panel">
+        <p class="eyebrow">Procedural Art • Binary Trees</p>
+        <h1>Organic Binary Tree Growth</h1>
+        <p class="lede">
+          Watch a recursively generated binary tree sprout from a single root, branching into a full canopy in real time.
+        </p>
+      </header>
+
+      <section class="details glass-panel">
+        <div>
+          <h2>How it works</h2>
+          <p>
+            Each frame grows the tree level by level using a recursive binary algorithm. Branch lengths shrink, angles jitter slightly, and the full structure continuously rescales to remain centered on any screen size.
+          </p>
+        </div>
+        <ul class="spec-list">
+          <li>Recursive depth-limited binary expansion</li>
+          <li>Organic branch length and angle decay</li>
+          <li>Viewport-aware canvas scaling</li>
+          <li>End-of-growth celebration message</li>
+        </ul>
+      </section>
+    </main>
+
+    <noscript>
+      Please enable JavaScript to experience the animated tree.
+    </noscript>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
